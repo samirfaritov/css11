@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    background-color: #ECEFF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.conteiner .box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fff;
+    position: relative;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 130px;
+    overflow: hidden;
+    transition: 0.4s all linear;
+    cursor: pointer;
+}
+
+.conteiner .box .item {
+    width: 100%;
+    height: 100%;
+    background-color: #3E5BA0;
+    position: absolute; 
+}
+
+.conteiner .box i {
+    font-size: 50px;
+}
+
+
+
+.conteiner .box:hover {
+    background-color: #3E5BA0;
+}
+
+.conteiner .box:nth-child(2):hover {
+    background-color: #36CAFF   ;
+}
+
+.conteiner .box:nth-child(3):hover {
+    background-color: #DD4B34;
+}
+
+.conteiner .box:nth-child(4):hover {
+    background-color: #F26799;
+}
+
+.conteiner .box:nth-child(5):hover {
+    background-color: #00B3F7;
+}
+
+
+.conteiner .box:hover i:nth-child(1) {
+    position: absolute;
+    left: 100px;
+}
